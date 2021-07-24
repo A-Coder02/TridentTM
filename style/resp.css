@@ -1,11 +1,14 @@
 @media only screen and (max-width: 600px){
 	.intror {
-    font-size: 2rem;
-	font-family: 'Ruslan Display', cursive;
+    font-size: 1.5rem;
 }
 nav#contact {
     display: none!important;
 }
+p.profile-name {
+    font-size: 3rem;
+}
+header{ z-index : 10;}
 .footer-items a {
     transition: 0.4s;
     color: white;
@@ -27,9 +30,13 @@ nav#contact {
 }
 .body-border {
     right: 5px !important;
+    
+    width: 100vw;
+    /* transform: scale(1); */
 }
 h1#acro-head-name {
     border-radius: 0;
+    font-size: 2rem;
 }
 div#frame-group-2-prc {
     height: fit-content;
@@ -67,7 +74,13 @@ div#frame-group-2-prc {
     -moz-box-shadow: -3px 41px 57px -16px black inset;
 }
 .about > h1 {
-    font-size: 26vw;
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
 }
 .page-adeeb {
     text-align: center;
@@ -108,20 +121,15 @@ div#frame-group-2-prc {
     background: repeating-linear-gradient(90deg, #bb66bb87 20px , #6633997a 100px 19%);
     background-position: right;
 }
-.brand {
-    opacity: 0.8;
-    transform: scale(1);
-    padding: 10px;
-    line-height: 25px;
-    box-shadow: inset 0px 0px 20px 7px #2196f300;
-    margin: 0px;
-    background: transparent;
-    text-align: center;
-    border: 1px #ffffff00 solid;
-    border-radius: 0px;
+.profile {
+    position: relative;
+    top: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0vh;
+    height: 100vh;
 }
 .mtb-3{
 	margin:4rem 0;
@@ -137,7 +145,7 @@ div#frame-group-2-prc {
     height: 100vh;
 }
 .profile-image {
-    width: 15vh;
+    width: 9rem;
     border-radius: 50%;
     box-shadow: 0px 0px 58px #2ffaff;
     transition: 0.5s;
@@ -239,7 +247,7 @@ div#frame-group-2-prc {
     bottom: 0;
 }
 .acro-logo {
-    transform: scale(0.6);
+    transform: scale(0.5);
     text-align: center;
     /* box-shadow: 0px 0px 30px black; */
     /* padding: 0; */
