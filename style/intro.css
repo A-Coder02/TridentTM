@@ -1,0 +1,88 @@
+
+
+.intro{
+	height:100vh;
+	width:100%;
+	position:absolute;
+	margin:0;
+	z-index:-1;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	background:black;
+	bottom:10vh;
+	animation-name:itro;
+	animation-duration:10s;
+	animation-timing-function:cubic-bezier(0.21, 0.2, 1, 1);
+	animation-iteration-count:1;
+	animation-direction:alternate;
+	animation-delay:0s;
+	animation-fill-mode: forwards;
+	display:block;
+			filter:opacity(0.5);
+}
+
+.intro > video{
+	height:100%;
+	width:100%;
+
+}
+
+
+
+
+.intror{
+	
+	width:100%;
+	height	:100%;
+	position:fixed;
+	right:10px;
+	top:0px;
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:black;
+	font-size:5rem;
+	animation-name:intror;
+	animation-duration:2s;
+	animation-timing-function:cubic-bezier(0.21, 0.2, 1, 1);
+	animation-iteration-count:1;
+	animation-direction:alternate;
+	animation-delay:7s;
+	animation-fill-mode: forwards;
+			filter:opacity(1);
+			z-index:7;
+			transform:scale(1.4);
+			overflow:hidden !important;
+}
+
+.intror > video{
+	height:0%;
+	width:100%;
+
+}
+@keyframes intror{
+	0%{
+		display:flex;
+		filter:opacity(1);
+		height:100%
+		
+	}
+	50%{display:flex;
+		word-spacing:2rem;
+		height:0;
+	}
+	90%{display:flex;
+		
+		
+	}
+	100%{
+		 animation-duration: 0s;
+		transform:scale(1);
+		 top:100%;
+		display:none;
+		
+	}
+}

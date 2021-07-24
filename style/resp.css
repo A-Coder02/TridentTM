@@ -1,0 +1,350 @@
+@media only screen and (max-width: 600px){
+	.intror {
+    font-size: 2rem;
+	font-family: 'Ruslan Display', cursive;
+}
+nav#contact {
+    display: none!important;
+}
+.footer-items a {
+    transition: 0.4s;
+    color: white;
+    z-index: 1;
+    mix-blend-mode: difference;
+    padding: 1rem;
+}
+#acro-head-info h3 {
+    padding: 0.4rem;
+}
+.footer-bug {
+    width: 100%;
+    height: 110px;
+    background: black;
+    position: relative;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+}
+.body-border {
+    right: 5px !important;
+}
+h1#acro-head-name {
+    border-radius: 0;
+}
+div#frame-group-2-prc {
+    height: fit-content;
+}
+	header {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    z-index: 5;
+    background: black;
+}
+.hcfl{
+	display:none!important;
+}
+#my-gamesw {
+    margin: 0 0vw;
+}
+.my-games {
+    border-radius: 0;
+    background: url(../wal1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+    margin: 10px;
+    font-size: 0.8em;
+    padding: 5px;
+    transition: 1s;
+    box-shadow: -3px 41px 57px -16px blue inset;
+    -webkit-box-shadow: -3px 41px 57px -16px gray inset;
+    -moz-box-shadow: -3px 41px 57px -16px black inset;
+}
+.about > h1 {
+    font-size: 26vw;
+}
+.page-adeeb {
+    text-align: center;
+    transform: scale(1);
+    position: relative;
+    bottom: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #59c1ec, #ff277499),url("../qw1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-variant-caps: all-petite-caps;
+    font-size: 2em;
+    box-shadow: 0px 0px 0px black;
+    border-radius: 20%;
+    /* background: url("../adw1.jpg"); */
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    /* backdrop-filter: opacity(0.5); */
+}
+#adeeb-quotes {
+    font-size: 1em;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0px;
+    color: white;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px -20px 3em brown inset;
+    /* background: repeating-linear-gradient(90deg, black 200px, #6633997a 200px); */
+    background: repeating-linear-gradient(90deg, #bb66bb87 20px , #6633997a 100px 19%);
+    background-position: right;
+}
+.brand {
+    opacity: 0.8;
+    transform: scale(1);
+    padding: 10px;
+    line-height: 25px;
+    box-shadow: inset 0px 0px 20px 7px #2196f300;
+    margin: 0px;
+    background: transparent;
+    text-align: center;
+    border: 1px #ffffff00 solid;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mtb-3{
+	margin:4rem 0;
+}
+.profile {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0vh;
+    height: 100vh;
+}
+.profile-image {
+    width: 15vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 58px #2ffaff;
+    transition: 0.5s;
+}
+.frame-group-1 {
+    background: radial-gradient(at 76% 0%,#ffeb3bd6, #5a1c9cd4);
+    margin: 2px;
+    text-align: right;
+    width: 70%;
+    overflow: hidden;
+    height: fit-content;
+}
+.page-1 {
+    height: 35vh;
+    width: 100%;
+    color: white;
+    background: #3181a0e8;
+    clip-path: polygon(0 12%, 16% 4%, 44% 12%, 61% 8%, 78% 13%, 90% 2%, 100% 5%, 100% 100%, 0% 100%, 0 100%);
+}
+.my-games-list-items {
+    height: 60px;
+    padding: 10px;
+    background: black;
+}
+#adeeb-name {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: 0px 0px 8px black;
+}
+.game-header {
+    color: white;
+    font-size: 18vw;
+    position: fixed;
+    top: -30vh;
+    z-index: 5;
+}
+.game-names {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.navlinks {
+    text-align: center;
+    font-size: 1.3em;
+    background: linear-gradient(45deg, #03a9f4, #00bcd4);
+    opacity: 0.8;
+    padding: 0 5px;
+}
+
+#acro-head-name {
+    font-size: 7vh;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase !important;
+    animation: acro-anim1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background: #f44336;
+    color: tomato;
+    padding: 10px;
+    /* border-radius: 10px; */
+    animation-direction: alternate;
+    box-shadow: 0 0 5rem 0px #00000045 inset;
+}
+.acro-logo {
+    transform: scale(0.7);
+    text-align: center;
+    /* box-shadow: 0px 0px 30px black; */
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(183deg, #ffffff73, #b70b0b85);
+    line-height: 0px;
+}
+.vlrnt-bug {
+    position: absolute;
+    bottom: 0;
+    right: 84px;
+    z-index: 100;
+    height: 226px;
+    width: fit-content;
+    overflow: visible;
+    top: inherit;
+}
+#volarent-soldier {
+    right: -5em;
+    top: 0px;
+}
+	.frame-group-2{ display : none; }
+	.frame-group-1{ width : 100%; }
+	#csgo-soldier {
+    left: 100px;
+    bottom: 0;
+}
+.acro-logo {
+    transform: scale(0.6);
+    text-align: center;
+    /* box-shadow: 0px 0px 30px black; */
+    /* padding: 0; */
+    border-radius: 10px;
+    background: linear-gradient(183deg, #ffffff73, #b70b0b85);
+    line-height: 0px;
+}
+.soldier {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+}
+.csgo-bug {
+    position: absolute;
+    bottom: 0;
+    left: -9rem;
+    /* z-index: 0; */
+    height: 160px;
+    /* width: 60vw; */
+    overflow: initial;
+    top: inherit;
+}
+.frame-1.frame-lg {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 57%;
+}
+.frame-lg > iframe {
+    width: 100%;
+    height: 300px;
+    border: 10px #0000005e solid;
+}
+#frame-group-2-prc >div {
+    opacity: 1;
+    width: 100%;
+}
+.page-2 {
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(0deg);
+    flex-direction: row;
+    height: fit-content;
+}
+#frame-group-2-prc {
+    position: relative;
+    top: -50vh;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0vh auto;
+    overflow: initial;
+    height: 30vh;
+    padding: 5px;
+    background: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    align-items: center;
+}
+#page-3 {
+    background: url("../soldier-c.jpg");
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    background-color: black;
+    overflow: hidden;
+    animation-name: page-3;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.21, 0.2, 1, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0px 0px 60vw #000303 inset;
+}
+#game-header-3 {
+    width: 100%;
+    /* height: 100vh; */
+    position: fixed;
+    color: whitesmoke;
+    text-shadow: 2px 0px 1px white, -2px 0px 1px #000000;
+    font-size: 6vw;
+    top: 15vh;
+    left: 10vw;
+    z-index: 6;
+}
+#acro-items-name {
+    font-size: 3em;
+    white-space: nowrap;
+}
+.acro-info {
+    background: linear-gradient(45deg, #3fadb3, #0c1521);
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+    font-size: 1em;
+    padding: 30px;
+    font-weight: 900;
+}
+.game-header {
+    color: white;
+    font-size: 18vw;
+    position: fixed;
+    top: -30vh;
+    z-index: 5;
+    display: none;
+}
+.nav.a1-items{ display : none ;}
+}
